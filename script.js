@@ -10,14 +10,14 @@ let capY = 19;
 
 
 canvas.width = canvas.getBoundingClientRect().width;
-canvas.height = canvas.getBoundingClientRect().height+1;
+canvas.height = canvas.getBoundingClientRect().height;
 
 const defcoords = {
     "coordsA": {
-        'x': 0, 'y': 0
+        'x': 1, 'y': 1
     },
     "coordsB": {
-        'x': 39, 'y': 19
+        'x': 38, 'y': 18
     }
 }
 let coords = defcoords;
@@ -42,10 +42,10 @@ function drawSquare(coords) {
 }
 
 function reset() {
-    coords.coordsA.x = 0;
-    coords.coordsA.y = 0;
-    coords.coordsB.x = 39;
-    coords.coordsB.y = 19;
+    coords.coordsA.x = 1;
+    coords.coordsA.y = 1;
+    coords.coordsB.x = 38;
+    coords.coordsB.y = 18;
 }
 
 
