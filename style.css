@@ -1,0 +1,18 @@
+button {
+    border: 0;
+    color: white;
+    border-radius: 10px;
+    width: 150px;
+    padding: 8px;
+    margin: 1px;
+    height: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button:hover {
+    font-weight: 700;
+}
+
+.reset {
+    background-color: red;
+}
